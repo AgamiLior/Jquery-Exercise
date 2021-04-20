@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Movies App</title>
+</head>
+<h1 id="header">Rate your movies</h1>
+
+<body id="body">
+    <div>
+        <form id="form">
+            <p>Rate your favorite movies here:</p>
+            <input type="text" id="movie-name" placeholder="Enter Movie Name" required size="30">
+            <input type="number" id="user-rating" required min="0" max="10" placeholder="Rating">
+            <button id="submit">Submit!</button>
+            <br>
+            <table id="myTable2">
+                <tr>
+                    <th id="name-of-movie" onclick="sortTable(0)">Name Of Movie</th>
+                    <th id="rating-by-user" style="text-align: center;" onclick="sortTable(1)"> Rating</th>
+                    <th id="deleteMovie" style="text-align: center;">Delete</th>
+                </tr>
+            </table>
+        </form>
+        <p id="credits">created by Lior agami</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

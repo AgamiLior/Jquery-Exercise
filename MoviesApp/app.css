@@ -1,0 +1,113 @@
+#body {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 800px;
+    /* border: 3px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    border-left: none; */
+    border-radius: 10px;
+}
+
+#header {
+    margin-left: 250px;
+    color: darkblue;
+    
+}
+div {
+    background-color: lightgrey;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#credits {
+    color: black;
+    font-size: 10px;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategrey;
+    margin-left: 32px;
+}
+#movie-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px #888888;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    margin-left: 30px;
+    height: 25px;
+
+}
+
+#user-rating {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px #888888;
+    border-radius: 5px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    height: 25px;
+    width: 80px;
+}
+
+#submit {
+    margin-left: 200px;
+    box-shadow: 3px 3px #888888;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+
+table {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    border:solid black 1px;
+    border-radius:6px;
+    width: 80%;
+
+  }
+  tr:nth-child(even) {background-color: #E6E6FA
+    ;}
+
+  td, th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+  }
+  td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: center;
+
+  }
+  
+.new-movie-name {
+
+}
+
+.new-movie-rate{
+
+}
+
+.new-rank {
+
+}
+
+.delete-movie-button {
+    text-align: center;
+    word-wrap:initial;
+    background-color: #B22222;
+    max-width: 100px;
+}
+
+.delete-button {
+    max-width: 50px;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+}
